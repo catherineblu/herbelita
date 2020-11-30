@@ -192,6 +192,26 @@
     padding: 0 50px;
 }
 .main__content h1{
-    font-size: 1rem;
-    color: linear-gradient(to top, #fff8c1 0%, #ffb199 100%); 
+    font-size: 4rem;
+    background-color: #ffc85c;
+    background-image: linear-gradient(to top, #fff8c1 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.main__content h2{
+    font-size: 4rem;
+    background-color: #101913;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.main__content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
