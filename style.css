@@ -319,7 +319,9 @@
     background-image: linear-gradient(to right, #ff8177 0%,
     #ff8678 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78,
     #b12a5b 100%);*/
+    max-width: 1300px;
     background-size: 100%;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 2.5rem;
     -webkit-background-clip: text;
@@ -335,7 +337,7 @@
 .services__card{
     margin: 1rem;
     height: 300px;
-    width: 420px;
+    width: 440px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./images/image2.png');
     background-size: cover;
@@ -343,12 +345,44 @@
     color: #fff;
 }
 .services__card:nth-child(2){
-    margin: 1rem;
-    height: 300px;
-    width: 420px;
-    border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./images/image3.png');
     background-size: cover;
     position: relative;
     color: #fff;
+}
+
+.services h2{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+}
+.services__card p{
+    position: absolute;
+    top: 100px;
+    left: 80px; 
+}
+.services__card:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+@media screen and (max-width: 960px){
+    .services{
+        height: 1600px;
+    }
+    .services h1{
+        font-size: 1rem;
+        margin-top: 12rem;
+    }
+}
+@media screen and (max-width: 960px){
+    .services{
+        height: 1400px;
+    }
+    .services h1{
+        font-size: 2rem;
+    }
+    .services__card{
+        width: 450px;
+    }
 }
