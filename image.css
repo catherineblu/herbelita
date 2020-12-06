@@ -1,67 +1,109 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-family: 'Homemade Apple', cursive;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 10px;
+html {
+  font-family: "Homemade Apple", cursive;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 10px;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.gallery__container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1.5rem;
+.gallery__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
 }
-.herb-info{
-    width: 100%;
-    max-width: 98rem;
-    padding: 5rem;
-    background-color: white;
-    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
-    display: flex;
-    align-items: center;
-    border-radius: .8rem;
+.herb-info {
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: white;
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
 }
-.herb-info__img{
-    min-width: 35rem;
-    max-width: 35rem;
-    height: 30rem;
-    transform: translateX(-8rem);
-    position: relative;
+.herb-info__img {
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  transform: translateX(-8rem);
+  position: relative;
 }
-.herb-info__img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    border-radius: .8rem;
+.herb-info__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.8rem;
 }
-.herb-info__img::before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0,.05);
-    border-radius: .8rem;
+.herb-info__img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
+  border-radius: 0.8rem;
 }
-.herb-info__a span{
-    display: block;
-    color: rgba(0, 0, 0, .5);
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin: .5rem 0;
+.herb-info__a span {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
 }
-.herb-info__title{
-    font-size: 2.5rem;
-    margin-top: 1.5rem 0 2rem;
+.herb-info__title {
+  font-size: 2.5rem;
+  margin-top: 1.5rem 0 2rem;
+  color: #4facfe;
+}
+.herb-info__text {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.herb-info__cta {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+
+  border-radius: 0.8rem;
+}
+@media screen and (max-width: 1068px) {
+  .herb-info {
+    max-width: 80rem;
+  }
+  .herb-info__img {
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+}
+@media screen and (max-width: 868px) {
+  .herb-info {
+    max-width: 70rem;
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+  .herb-info {
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+  .herb-info__img {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -8rem);
+  }
 }
