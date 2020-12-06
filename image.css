@@ -8,7 +8,6 @@
 html {
   font-family: "Homemade Apple", cursive;
   font-family: "Kumbh Sans", sans-serif;
-
 }
 img {
   width: 100%;
@@ -63,7 +62,7 @@ img {
   margin: 0.5rem 0;
 }
 .herb-info__title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-top: 1.5rem 0 2rem;
   color: #4facfe;
 }
