@@ -78,13 +78,14 @@ img {
 
 .main-small{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .herb-info__card{
-    display: block;
-    min-width: 30rem;
-    max-width: 30rem;
+    position: relative;
+    min-width: 20rem;
+  max-width: 20rem;
 }
 .herb-info__container{
     display: flex;
@@ -97,12 +98,15 @@ img {
 
 .herb-info__label{
     position: absolute;
-    top: 40%;
+    left: 10%;
+    top: 10%;
     color: #fff;
+    text-transform: uppercase;
 }
 .herb-info__button{
     position: absolute;
-    top: 50%;
+    top: 60%;
+    right: 10%;
 }
 
 
