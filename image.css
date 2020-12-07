@@ -14,8 +14,8 @@ img {
 }
 .main{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /*flex-direction: column;
+    align-items: center;*/
 }
 .gallery__container {
   width: 80%;
@@ -75,6 +75,37 @@ img {
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.main-small{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.herb-info__card{
+    display: block;
+    min-width: 30rem;
+    max-width: 30rem;
+}
+.herb-info__container{
+    display: flex;
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem;
+}
+
+.herb-info__label{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+}
+.herb-info__button{
+    position: absolute;
+    top: 50%;
+}
+
+
 @media screen and (max-width: 1068px) {
   .herb-info {
     max-width: 80rem;
