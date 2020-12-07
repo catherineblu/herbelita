@@ -12,6 +12,11 @@ html {
 img {
   width: 100%;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .gallery__container {
   width: 80%;
   height: 100vh;
@@ -55,7 +60,7 @@ img {
 }
 .herb-info__a span {
   display: block;
-  color: rgba(0, 0, 0, 0.5);
+  color:  #6b9e7f;
   font-size: 1.6rem;
   font-weight: 600;
   margin: 0.5rem 0;
@@ -63,22 +68,12 @@ img {
 .herb-info__title {
   font-size: 1.5rem;
   margin-top: 1.5rem 0 2rem;
-  color: #4facfe;
+  color:  #101913;
 }
 .herb-info__text {
   margin-bottom: 3rem;
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.7);
-}
-.herb-info__cta {
-  display: inline-block;
-  padding: 1.5rem 3rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  color: #fff;
-
-  border-radius: 0.8rem;
 }
 @media screen and (max-width: 1068px) {
   .herb-info {
