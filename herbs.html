@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="image.css" />
-    <script
-      src="https://kit.fontawesome.com/6f9c850400.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Kumbh+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <title>Herbs</title>
-  </head>
-  <body>
-    <!--Navbar section-->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="" id="navbar__logo"><i class="fas fa-leaf"></i>Herbelita</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="index.html" class="navbar__links">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="herbs.html" class="navbar__links">Herbs</a>
-          </li>
-          <li class="navbar__item">
-            <a href="advices.html" class="navbar__links">Advices</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <div class="main main-small">
-      <div class="herb-info__container">
-        <div class="herb-info__card">
-          <img src="./images/herbs/ajwain.jpg" alt="ajwain" />
-          <h2 class="herb-info__label">Ajwain</h2>
-          <div class="herb-info__button">
-            <button class="main__btn button" id="open">Learn more</button>
-          </div>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="image.css" />
+  <script src="https://kit.fontawesome.com/6f9c850400.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Kumbh+Sans&display=swap"
+    rel="stylesheet" />
+  <title>Herbs</title>
+</head>
 
-      <!-- <div class="herb-info__container">
-        <div class="herb-info__card">
-          <img src="./images/herbs/alexanders.jpg" alt="alexanders" />
-          <h2 class="herb-info__label">Alexanders</h2>
-          <div class="herb-info__button">
-            <button class="main__btn button">Learn more</button>
-          </div>
+<body>
+  <!--Navbar section-->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="" id="navbar__logo"><i class="fas fa-leaf"></i>Herbelita</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="herbs.html" class="navbar__links">Herbs</a>
+        </li>
+        <li class="navbar__item">
+          <a href="advices.html" class="navbar__links">Advices</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="search-box">
+    <input class ="search-txt" type="text" name ="" placeholder="Search...">
+    <a class="search-btn"href="#">
+      
+    </a>
+  </div>
+
+
+  <div class="main main-small">
+    <div class="herb-info__container">
+      <div class="herb-info__card">
+        <img src="./images/herbs/ajwain.jpg" alt="ajwain" />
+        <h2 class="herb-info__label">Ajwain</h2>
+        <div class="herb-info__button">
+          <button class="main__btn button" id="open">Learn more</button>
         </div>
       </div>
+    </div>
 
-      <div class="herb-info__container">
+    <div class="herb-info__container">
+      <div class="herb-info__card">
+        <img src="./images/herbs/alexanders.jpg" alt="alexanders" />
+        <h2 class="herb-info__label">Alexanders</h2>
+        <div class="herb-info__button">
+          <button class="main__btn button">Learn more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="herb-info__container">
         <div class="herb-info__card">
           <img
             src="./images/herbs/alligator pepper.jpg"
@@ -126,123 +132,210 @@
 
       <div class="herb-info__container">
         <div class="herb-info__card">
-          <img src="./images/herbs/" alt="allspice" />
-          <h2 class="herb-info__label">Allspice</h2>
+          <img src="./images/herbs/barberry.jpg" alt="barberry" />
+          <h2 class="herb-info__label">Barberry</h2>
           <div class="herb-info__button">
             <button class="main__btn button">Learn more</button>
           </div>
         </div>
-      </div>-->
+      </div>
 
-      <div class="gallery__container">
-        <div class="herb-info" id="herb_info">
-          <div class="herb-info__img">
-            <img src="./images/herbs/ajwain.jpg" alt="ajwain" />
-          </div>
-
-          <div class="herb-info__info">
-            <button class="secondary__btn" id="close"><i class="fas fa-times"></i></button>
-            <h1 class="herb-info__title">Ajwain</h1>
-            <div class="herb-info__a">
-              <span>Trachyspermum ammi</span>
-            </div>
-            <p class="herb-info__text">
-              is an annual herb in the family Apiaceae (or Umbelliferae). Both
-              the leaves and the seed‑like fruit (often mistakenly called seeds)
-              of the plant are consumable. The name "bishop's weed" also is a
-              common name for other plants. The "seed" (i.e., the fruit) is
-              often confused with lovage "seed".
-            </p>
-            <div class="herb-info__a">
-              <span>Awesome on...</span>
-            </div>
-            <p class="herb-info__text">
-              The fruits are rarely eaten raw; they are commonly dry-roasted or
-              fried in ghee (clarified butter). This allows the spice to develop
-              a more subtle and complex aroma. It is widely used in the cuisine
-              of the Indian subcontinent, often as part of a chaunk (also called
-              a tarka), a mixture of spices - sometimes with a little chopped
-              garlic or onion - fried in oil or clarified butter, which is used
-              to flavor a dish at the end of cooking. It is also an important
-              ingredient for herbal medicine practiced there. In Afghanistan,
-              the fruits are sprinkled over bread and biscuits.
-            </p>
+      <div class="herb-info__container">
+        <div class="herb-info__card">
+          <img src="./images/herbs/basil.jpg" alt="basil" />
+          <h2 class="herb-info__label">Basil</h2>
+          <div class="herb-info__button">
+            <button class="main__btn button">Learn more</button>
           </div>
         </div>
       </div>
-    </div>
 
-    <!--Footer-->
-    <div class="footer__container">
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About us</h2>
-            <a href="">How it works....</a>
-            <a href="">A text here...</a>
-            <a href="">More text here...</a>
-            <a href="">Lorem ipsum</a>
-            <a href="">text text text</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>About us</h2>
-            <a href="">How it works....</a>
-            <a href="">A text here...</a>
-            <a href="">More text here...</a>
-            <a href="">Lorem ipsum</a>
-            <a href="">text text text</a>
-          </div>
-        </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About us</h2>
-            <a href="">How it works....</a>
-            <a href="">A text here...</a>
-            <a href="">More text here...</a>
-            <a href="">Lorem ipsum</a>
-            <a href="">text text text</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>About us</h2>
-            <a href="">How it works....</a>
-            <a href="">A text here...</a>
-            <a href="">More text here...</a>
-            <a href="">Lorem ipsum</a>
-            <a href="">text text text</a>
+      <div class="herb-info__container">
+        <div class="herb-info__card">
+          <img src="./images/herbs/bay-leaf.jpg" alt="bay leaf" />
+          <h2 class="herb-info__label">Bay leaf</h2>
+          <div class="herb-info__button">
+            <button class="main__btn button">Learn more</button>
           </div>
         </div>
       </div>
-      <div class="social__media">
-        <div class="social__media--wrap">
-          <div class="footer__logo">
-            <a href="" id="footer__logo"
-              ><i class="fas fa-leaf"></i>Herbelita</a
-            >
+
+      <div class="herb-info__container">
+        <div class="herb-info__card">
+          <img src="./images/herbs/boldo.jpg" alt="boldo" />
+          <h2 class="herb-info__label">Boldo</h2>
+          <div class="herb-info__button">
+            <button class="main__btn button">Learn more</button>
           </div>
-          <p class="website__rights">
-            Made with <i class="fas fa-heart"></i>by Morgenstern
+        </div>
+      </div>
+
+      <div class="herb-info__container">
+        <div class="herb-info__card">
+          <img src="./images/herbs/borage.jpg" alt="borage" />
+          <h2 class="herb-info__label">Borage</h2>
+          <div class="herb-info__button">
+            <button class="main__btn button">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="herb-info__container">
+        <div class="herb-info__card">
+          <img src="./images/herbs/blue-fenugreek.jpg" alt="blue-fenugreek" />
+          <h2 class="herb-info__label">blue-fenugreek</h2>
+          <div class="herb-info__button">
+            <button class="main__btn button">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="gallery__container">
+      <div class="herb-info" id="herb_info">
+        <div class="herb-info__img">
+          <img src="./images/herbs/ajwain.jpg" alt="ajwain" />
+        </div>
+
+        <div class="herb-info__info">
+          <button class="secondary__btn" id="close"><i class="fas fa-times"></i></button>
+          <h1 class="herb-info__title">Ajwain</h1>
+          <div class="herb-info__a">
+            <span>Trachyspermum ammi</span>
+          </div>
+          <p class="herb-info__text">
+            It is an annual herb in the family Apiaceae (or Umbelliferae). Both
+            the leaves and the seed‑like fruit (often mistakenly called seeds)
+            of the plant are consumable. The name "bishop's weed" also is a
+            common name for other plants. The "seed" (i.e., the fruit) is
+            often confused with lovage "seed".
           </p>
-          <div class="social__icons">
-            <a href="" class="social__icon--link" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="" class="social__icon--link" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="social__icon--link" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="social__icon--link" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="social__icon--link" target="_blank">
-              <i class="fab fa-youtube"></i>
-            </a>
+          <div class="herb-info__a">
+            <span>Awesome on...</span>
           </div>
+          <p class="herb-info__text">
+            The fruits are rarely eaten raw; they are commonly dry-roasted or
+            fried in ghee (clarified butter). This allows the spice to develop
+            a more subtle and complex aroma. It is widely used in the cuisine
+            of the Indian subcontinent, often as part of a chaunk (also called
+            a tarka), a mixture of spices - sometimes with a little chopped
+            garlic or onion - fried in oil or clarified butter, which is used
+            to flavor a dish at the end of cooking. It is also an important
+            ingredient for herbal medicine practiced there. In Afghanistan,
+            the fruits are sprinkled over bread and biscuits.
+          </p>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
-    <script src=""></script>
-  </body>
+  </div>
+<!--
+  <div class="gallery__container">
+    <div class="herb-info" id="herb_info">
+      <div class="herb-info__img">
+        <img src="./images/herbs/alexanders.jpg" alt="alexanders" />
+      </div>
+
+      <div class="herb-info__info">
+        <button class="secondary__btn" id="close"><i class="fas fa-times"></i></button>
+        <h1 class="herb-info__title">Alexanders</h1>
+        <div class="herb-info__a">
+          <span>Smyrnium olusatrum</span>
+        </div>
+        <p class="herb-info__text">
+          It is an edible cultivated flowering plant of the family Apiaceae (or Umbelliferae). It is also known as
+          alisanders, horse parsley, and smyrnium. It was known to Theophrastus (9.1) and Pliny the Elder (N.H. 19.48).
+        </p>
+        <div class="herb-info__a">
+          <span>Awesome on...</span>
+        </div>
+        <p class="herb-info__text">
+          Every part of the plant is edible. The flowers are yellow-green in colour and arranged in umbels, and its
+          fruits are black. It flowers from April to June. Alexanders is intermediate in flavor between celery and
+          parsley. It was once used in many dishes, either blanched, or not, but it has now been replaced by
+          celery. The black seeds have a taste that has been described as both spicy or peppery.
+          <br>
+          They were used in medieval cuisine in place of a bitter type of celery. One 17th century text describes young
+          shoots used in salads or a "vernal pottage" and an early 18th century recipe recorded by Caleb Threlkeld for
+          Irish Lenten Potage includes alexanders, watercress and nettles. Alexanders fell out of favour in the 18th
+          century after celery started being mass produced to replace wild herbs and vegetables. Alexanders are not
+          commonly used as a food product in the modern era, but have found some renewed use in exotic "foraged" food
+          recipes and restaurants.
+          <br>
+          Look for this tall plant on cliff paths; the first seaside greenery of the year. Roman soldiers would carry
+          the plant on long journeys, as they could eat the leaves, the stems, the roots, and the buds.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Footer-->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About me</h2>
+          <a href="">Who am I?</a>
+          <a href="">Contact me...</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>About Herbelita</h2>
+          <a href="">How does it work....</a>
+          <a href="">...</a>
+          <a href="">...</a>
+          <a href="">...</a>
+          <a href="">...</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About us</h2>
+          <a href="">How it works....</a>
+          <a href="">A text here...</a>
+          <a href="">More text here...</a>
+          <a href="">Lorem ipsum</a>
+          <a href="">text text text</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>About us</h2>
+          <a href="">How it works....</a>
+          <a href="">A text here...</a>
+          <a href="">More text here...</a>
+          <a href="">Lorem ipsum</a>
+          <a href="">text text text</a>
+        </div>
+      </div>
+    </div>
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="" id="footer__logo"><i class="fas fa-leaf"></i>Herbelita</a>
+        </div>
+        <p class="website__rights">
+          Made with <i class="fas fa-heart"></i>by Morgenstern
+        </p>
+        <div class="social__icons">
+          <a href="" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="social__icon--link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src=""></script>
+</body>
+
 </html>
