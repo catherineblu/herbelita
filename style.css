@@ -237,7 +237,6 @@
 }
 .main__btn:after{
     position: absolute;
-    content: '';
     top: 0;
     left: 0;
     width: 0;
@@ -246,9 +245,7 @@
     border-radius: 50px;
     transition: all 0.35s;
 }
-.main__btn:hover{
-    color: #fff;
-}
+
 .main__btn:hover:after{
     width: 100%;
 }
@@ -258,6 +255,14 @@
 #main__img{
     height: 80%;
     width: 80%;
+}
+.secondary__btn{
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%;
+    position: relative;
 }
 /*Mobile Responsive*/
 @media screen and (max-width: 768px){
